@@ -1,0 +1,352 @@
+﻿.Barrenav {
+    background-color: black;
+    opacity:0.85;
+    margin:0px;
+    padding:0px;
+    position:sticky;
+    top:0;
+    justify-content:space-between;
+    border-bottom:5px  white ;
+    color:white;
+}
+
+.link
+{
+    margin-right:10px;
+    
+    cursor:pointer;
+}
+.ico
+{
+    justify-content:space-between;
+    margin:4px;
+}
+
+.d2
+{
+    margin-right:200px;
+}
+
+.search
+{
+    
+    border-radius:25px;
+    
+}
+
+body
+{
+    margin: 0px  ;
+}
+
+.Top-page
+{
+    background-image: url("../multimedia/shop.jpg");
+    color: #ffffff;
+    height: 500px ;
+    padding:25px;
+    
+    
+}
+
+header
+{
+    display: flex;
+    margin: auto;
+    align-items: center;
+   
+}
+
+nav 
+{
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+    font-size: 1.2em;
+    
+}
+
+
+
+.landing-page
+{
+    font-size:4em;
+    text-shadow: 3px 3px 3px #ff0000;
+    padding:25px 5px;
+}
+
+.Th1
+{
+    text-align:center;
+}
+
+.Th3
+{
+color: #ff0000;
+text-shadow:2px 1px 2px #ffffff;
+font-size:2em;
+justify-content:center;
+flex-wrap:wrap;
+padding:5px 5px;
+}
+
+h3
+{
+    text-align:center;
+}
+
+.Navigation
+{
+    position:absolute;
+    right:50%;
+    cursor:pointer;
+}
+
+
+.Scroll
+{
+    position:absolute;
+    bottom: 100px;
+}
+
+.inscrit
+{
+    position:absolute;
+    bottom:100px;
+    right:50px;
+}
+
+.Ntitle
+{
+    font-family:cursive;
+    font-weight:100;
+    font-size:35px;
+    text-shadow:1px 1.5px #ff0000;
+    position:relative;
+}
+
+.Ntitle::before 
+{
+        content: " ";
+        background-color: #ffff66;
+        position: absolute;
+        height: 8px;
+        width: 60px;
+        bottom: 0;
+
+}
+.best-img
+{
+    background-color:red;
+    min-height:400px;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.Box {
+    background-size: cover;
+    background-position:center;
+    min-width: 350px;
+    height: 400px;
+    flex: 1;
+    position:relative;
+}
+.p1 {
+    background-image: url(../Multimedia/Chauss1.jpg);
+}
+.p2 {
+    background-image: url(../Multimedia/L1.jpg);
+}
+.p3 {
+    background-image: url(../Multimedia/N2.jpg);
+}
+
+.best  
+{
+    margin: 50px;
+}
+
+.Barre {
+   
+    background-color: #FFFFFFDF;
+    position: absolute;
+    bottom: 0;
+    padding: 5px 10px;
+    width: 100%;
+    height: 50px;
+}
+.TitlePrice {
+   
+    line-height:3px;
+    font-size:22px;
+    font-weight:400;
+}
+.Price {
+    line-height: 3px;
+    text-shadow: 0.5px 0.75px #ff0000;
+    font-weight:800;
+}
+
+.New 
+{
+    margin: 50px;
+}
+article {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 300px;
+    flex:1;
+    justify-items:center;
+}
+.Bep
+{
+  min-height:315px;  
+}
+
+
+
+.fin
+{
+    margin-top: 25px;
+    display:flex;
+    flex-direction:row;
+    
+    background-color: black;
+    opacity:0.7;
+    border-radius: 20px;
+    border: 5px solid black;
+    color:whitesmoke;
+    justify-content:center;
+    height:50px
+    
+}
+
+.Socialme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    list-style: none;
+    
+}
+.cond 
+{
+    text-decoration:none;
+    color:white;
+    
+  
+}
+
+.service
+{
+    display:flex;
+    margin:auto;
+    justify-content:space-around;
+    margin-top:10px;
+}   
+.item
+{
+    font-size:50px;
+    cursor:pointer;
+    
+}
+.items
+{
+    font-size:30px;
+    justify-content:space-around;
+    align-items:center;
+    margin-right:15px;
+    color:azure;
+}
+
+/*  Debut  Chaussure et Vetements */
+.Grid
+{
+    display:grid;
+    min-height:150vh;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(4,400px);
+
+}
+
+.Grid1 {
+    background-image: url(../Multimedia/L1.jpg);
+    grid-column:1/3;
+    grid-row-end:1/3;
+}
+
+.Grid2 {
+    background-image: url(../Multimedia/Chauss2.jpg);
+    grid-column:3/5;
+   
+}
+
+.Grid3 {
+    background-image: url(../Multimedia/L2.jpg);
+    grid-column:3/5;
+    grid-row:2/3;
+}
+
+.Grid4 {
+    background-image: url(../Multimedia/N5.jpg);
+    grid-column:1;
+    grid-row: 3/5;
+}
+
+.Grid5 {
+    background-image: url(../Multimedia/Nike1.jpg);
+    grid-column:2/4;
+    grid-row:3/5;
+}
+
+.Grid6 {
+    background-image: url(../Multimedia/Nike3.jpg);
+    grid-column:4;
+    grid-row:3/5;
+}
+
+Grid12 {
+    background-image: url(../Multimedia/Chauss1.jpg);
+    grid-column: 1/3;
+    grid-row-end: 1/3;
+}
+
+.Grid21 {
+    background-image: url(../Multimedia/Chauss1.jpg);
+    grid-column: 3/5;
+}
+
+.Grid31 {
+    background-image: url(../Multimedia/Chauss1.jpg);
+    grid-column: 3/5;
+    grid-row: 2/3;
+}
+
+.Grid41 {
+    background-image: url(../Multimedia/Chauss1.jpg);
+    grid-column: 1;
+    grid-row: 3/5;
+}
+
+.Grid51 {
+    background-image: url(../Multimedia/Chauss1.jpg);
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+
+.Grid61 {
+    background-image: url(../Multimedia/Chauss1.jpg);
+    grid-column: 4;
+    grid-row: 3/5;
+}
+/*  Fin  Chaussure et Vetements */
+
+.Bton
+{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+html
+{
+    scroll-behavior:smooth;
+}

@@ -1,0 +1,31 @@
+﻿body {
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    border: 2px solid black;
+    background: url(https://media.istockphoto.com/photos/feet-and-arrows-on-road-background-in-starting-line-beginning-idea-picture-id1186015952?s=612x612);
+}
+.Form
+{
+    margin-top:40px;
+}
+.Entete
+{
+    display:flex;
+    border-bottom:dotted;
+    text-align:center;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-around;
+    
+}
+input 
+{
+    margin-top: 10px;
+}
+.Bouton
+{
+    color:red;
+    background-color:red;
+    margin-top:20px;
+}
